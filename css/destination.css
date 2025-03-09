@@ -1,0 +1,176 @@
+
+h1{
+    padding-left: 1rem;
+    font-size: 2.5rem;
+    color: var(--color-header-active);
+    text-shadow: 1px 1px var(--color-dark-writing);
+    text-decoration: underline;
+}
+
+
+.destination-intro{
+    background: var(--color-background-2);
+    display: flex;
+    padding: var(--spacing-sm) var(--spacing-md) var(--spacing-md) ;
+    gap: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.intro-image{
+    width: 100%;
+    max-width: 25rem;
+    height: 25%;
+    border-radius: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
+
+.grid-item {
+    position: relative;
+    width: 35%;
+    height: auto;
+    flex: 0 0 auto;
+    overflow: hidden;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-line-container{
+    padding: var(--spacing-sm) var(--spacing-md);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    text-decoration: none;
+}
+
+
+.grid-item img {
+    display: block;
+    width: 100%;
+    max-width: 35rem;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-line-container:hover{
+    transform: scale(1.1);
+}
+
+.grid-line-container:nth-child(3n+1) {
+    background: var(--color-background);
+    color: var(--color-dark-writing);
+}
+
+.grid-line-container:nth-child(3n+2) {
+    background: var(--color-background-2);
+    color: var(--color-dark-writing);
+}
+
+.grid-line-container:nth-child(3n) {
+    background: var(--color-bar);
+    color: var(--color-light-writing);
+}
+
+
+.grid-item h3 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-light-writing);
+    text-shadow: 0.1rem 0.1rem var(--color-dark-writing);
+    font-weight: bold;
+    padding: 10rem 15rem;
+    text-align: center;
+    width: auto;
+    white-space: nowrap;
+}
+
+
+.flag{
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 85%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+}
+
+
+.description-texte{
+    text-align: center;
+    text-align-last: center;
+}
+
+
+.option-select{
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-option-slider-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+}
+
+
+.destination-option-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-bar);
+    padding: var(--spacing-sm) var(--spacing-md) var(--spacing-md);
+    gap: 2rem;
+}
+
+
+.option-select select{
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.3rem 1.5rem 0 0.5rem;
+    border: 0.1rem solid var(--color-light-border);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: var(--color-dark-writing);
+    appearance: none;
+    background-image: url("../image/fleche-bas.jpg");
+    background-repeat: no-repeat;
+    background-position: right 0.1rem center;
+    background-size: 1rem;
+    width: 100%;
+    max-width: 300px;
+}
+
+
+
+
+select:focus{
+    background: var(--color-background);
+}
+
+
+
+h2{
+    font-size: 2rem;
+    color: var(--color-header-active);
+    text-decoration: underline;
+}
+
+h5{
+    color: var(--color-header-active);
+    font-size: 1.3rem;
+    font-weight: bold;
+}

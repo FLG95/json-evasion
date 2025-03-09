@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: var(--spacing-md) var(--spacing-sm);
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 0.1rem solid var(--color-dark-writing);
+    font-size: 1.4rem;
+}
+
+
+th {
+    color: var(--color-light-writing);
+    background: var(--color-bar);
+    border-right: 0.1rem solid black;
+}
+
+
+tr:nth-child(2n) {
+    background: var(--color-background-2);
+}
+
+tr:not(:first-child):hover {
+    background: var(--color-light-border);
+    opacity: 0.8;
+}
+
+td {
+    border-top: 0.1rem solid var(--color-dark-writing);
+    border-right: 0.1rem solid var(--color-light-border);
+}
+
+
+td:last-child{
+    border-right: none;
+}
+
+
+td, th {
+    padding: 1rem;
+}
+
+select {
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 0.3rem 1.5rem  0.5rem;
+    border: 0.1rem solid var(--color-light-border);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: var(--color-dark-writing);
+    appearance: none;
+    background-image: url("../image/fleche-bas.jpg");
+    background-repeat: no-repeat;
+    background-position: right 0.1rem center;
+    background-size: 1rem;
+    margin-right: 1rem;
+}
+
+select:focus {
+    border-color: var(--color-header-active);
+    outline: none;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+select option {
+    background: var(--color-background);
+}
+
+
+
+.sup-button{
+    color: var(--color-light-writing);
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 1rem 0.3rem;
+    background-color: #d62d2d;
+    padding: 0.3rem 0.4rem;
+    border: 0.1rem var(--color-dark-writing) solid;
+    cursor: pointer;
+}
+
+.sup-button:hover[type="submit"]{
+    background-color: #d62d2d;
+    border: 0.1rem #d62d2d solid;
+}
+
+table button:hover[type="submit"]{
+    background-color: var(--color-submit);
+    border: 0.1rem var(--color-submit) solid;
+}
+
+
+
+.modifier-button{
+    color: var(--color-light-writing);
+    text-align: center;
+    font-size: 1.3rem;
+    border-radius: 1rem 0.3rem;
+    background-color: var(--color-header-active);
+    padding: 0.3rem 0.4rem;
+    border: 0.1rem var(--color-dark-writing) solid;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}

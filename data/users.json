@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Goupil",
+        "firstname": "Florian",
+        "mail": "tkt@gmail.com",
+        "password": "$2y$10$MubOQeEgzxRu7yTQ08Mh3ueWA8OX0zSeLHLQDkIwF7umjg8aa1Rem",
+        "role": "Admin",
+        "trips": []
+    },
+    {
+        "name": "Morel",
+        "firstname": "Paul",
+        "mail": "paul.morel@gmail.com",
+        "password": "$2y$10$wOZKeN3bEklTvlnCbEk4c.SKzwhiE5N6OEv93HRcoIpO\/mZmb\/qBa",
+        "role": "VIP",
+        "trips": []
+    },
+    {
+        "name": "Richelieux",
+        "firstname": "Louis",
+        "mail": "louis.richelieux@gmail.com",
+        "password": "$2y$10$t2AkQzJGrzSsdARHkHvjNeptsUun6SowrHKoZLEIIJHJyi9lgLjkm",
+        "role": "User",
+        "trips": []
+    },
+    {
+        "name": "Robber",
+        "firstname": "Antonio",
+        "mail": "antonio.robber@gmail.com",
+        "password": "$2y$10$NmT\/\/F5n0SgL0h5xYWNaXOF2K0LnU3q6oGRiV7YlzQkhNvlGeSmzS",
+        "role": "Banni",
+        "trips": []
+    }
+]
